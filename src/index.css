@@ -3,17 +3,20 @@ body {
   font-family:
     -apple-system,
     BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
+    "Segoe UI",
+    "Roboto",
+    "Oxygen",
+    "Ubuntu",
+    "Cantarell",
+    "Fira Sans",
+    "Droid Sans",
+    "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 code {
@@ -22,6 +25,58 @@ code {
     Menlo,
     Monaco,
     Consolas,
-    'Courier New',
+    "Courier New",
     monospace;
+}
+
+.wrapper {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 54px 55px, rgba(0, 0, 0, 0.12) 0 -12px 30px, rgba(0, 0, 0, 0.12) 0 4px 6px, rgba(0, 0, 0, 0.17) 0 12px 13px, rgba(0, 0, 0, 0.09) 0 -3px 5px;
+}
+
+.wrapper > div {
+  border: 0.5px solid #8586936a;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.total {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  display: flex;
+  justify-content: flex-end;
+  background-color: #858693;
+  color: white;
+}
+
+.zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.ac,
+.plus-minus,
+.percent,
+.seven,
+.eight,
+.nine,
+.four,
+.five,
+.six,
+.one,
+.two,
+.three,
+.zero,
+.point {
+  background-color: #e0e0e0;
+}
+
+.divide,
+.multiply,
+.minus,
+.plus,
+.equal {
+  background-color: #f4913e;
 }
