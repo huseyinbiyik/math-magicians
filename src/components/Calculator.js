@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../css/Calculator.css';
 import calculate from '../logic/calculate';
 
-function Calculator() {
+const Calculator = () => {
   const [state, setState] = useState({ total: 0 });
 
   const onClickHandler = (e) => {
@@ -76,6 +76,6 @@ function Calculator() {
       </button>
     </div>
   );
-}
+};
 
 export default Calculator;
