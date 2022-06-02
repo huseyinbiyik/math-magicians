@@ -32,7 +32,7 @@ class Calculator extends React.Component {
         </div>
         <div className="divide">
           {' '}
-          <button type="button" onClick={this.onClickHandler}>/</button>
+          <button type="button" onClick={this.onClickHandler}>÷</button>
         </div>
         <div className="seven">
           {' '}
@@ -48,7 +48,7 @@ class Calculator extends React.Component {
         </div>
         <div className="multiply">
           {' '}
-          <button type="button" onClick={this.onClickHandler}>*</button>
+          <button type="button" onClick={this.onClickHandler}>x</button>
         </div>
         <div className="four">
           {' '}
