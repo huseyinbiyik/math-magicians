@@ -5,7 +5,9 @@ import calculate from '../logic/calculate';
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      total: 0,
+    };
     this.onClickHandler = this.onClickHandler.bind(this);
   }
 
@@ -14,11 +16,13 @@ class Calculator extends React.Component {
   }
 
   render() {
-    const { next, total } = this.state;
+    const { next, total, operation } = this.state;
     return (
       <div className="wrapper">
         <div className="total">
-          {next || total || 0}
+          { total }
+          { operation }
+          { next }
         </div>
         <button className="ac" type="button" onClick={this.onClickHandler}>AC</button>
         <button className="plus-minus" type="button" onClick={this.onClickHandler}>+/-</button>
