@@ -1,18 +1,24 @@
 import React from 'react';
 import calculate from '../logic/calculate';
-import operate from '../logic/operate';
 
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
     this.state = {};
+    this.onClickHandler = this.onClickHandler.bind(this);
+  }
+
+  onClickHandler(e) {
+    this.setState((state) => calculate(state, e.target.innerText));
   }
 
   render() {
     return (
       <div className="wrapper">
         <div className="total">0</div>
-        <div className="ac">AC</div>
+        <div className="ac">
+          <button type="button" onClick={this.onClickHandler}>AC</button>
+        </div>
         <div className="plus-minus">+/-</div>
         <div className="percent">%</div>
         <div className="divide">/</div>
