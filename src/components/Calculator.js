@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/Calculator.css';
 import calculate from '../logic/calculate';
 
 class Calculator extends React.Component {
@@ -19,81 +20,25 @@ class Calculator extends React.Component {
         <div className="total">
           {next || total || 0}
         </div>
-        <div className="ac">
-          <button type="button" onClick={this.onClickHandler}>AC</button>
-        </div>
-        <div className="plus-minus">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>+/-</button>
-        </div>
-        <div className="percent">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>%</button>
-        </div>
-        <div className="divide">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>÷</button>
-        </div>
-        <div className="seven">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>7</button>
-        </div>
-        <div className="eight">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>8</button>
-        </div>
-        <div className="nine">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>9</button>
-        </div>
-        <div className="multiply">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>x</button>
-        </div>
-        <div className="four">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>4</button>
-        </div>
-        <div className="five">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>5</button>
-        </div>
-        <div className="six">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>6</button>
-        </div>
-        <div className="minus">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>-</button>
-        </div>
-        <div className="one">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>1</button>
-        </div>
-        <div className="two">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>2</button>
-        </div>
-        <div className="three">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>3</button>
-        </div>
-        <div className="plus">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>+</button>
-        </div>
-        <div className="zero">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>0</button>
-        </div>
-        <div className="point">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>.</button>
-        </div>
-        <div className="equal">
-          {' '}
-          <button type="button" onClick={this.onClickHandler}>=</button>
-        </div>
+        <button className="ac" type="button" onClick={this.onClickHandler}>AC</button>
+        <button className="plus-minus" type="button" onClick={this.onClickHandler}>+/-</button>
+        <button className="percent" type="button" onClick={this.onClickHandler}>%</button>
+        <button className="divide" type="button" onClick={this.onClickHandler}>÷</button>
+        <button className="seven" type="button" onClick={this.onClickHandler}>7</button>
+        <button className="eight" type="button" onClick={this.onClickHandler}>8</button>
+        <button className="nine" type="button" onClick={this.onClickHandler}>9</button>
+        <button className="multiply" type="button" onClick={this.onClickHandler}>x</button>
+        <button className="four" type="button" onClick={this.onClickHandler}>4</button>
+        <button className="five" type="button" onClick={this.onClickHandler}>5</button>
+        <button className="six" type="button" onClick={this.onClickHandler}>6</button>
+        <button className="minus" type="button" onClick={this.onClickHandler}>-</button>
+        <button className="one" type="button" onClick={this.onClickHandler}>1</button>
+        <button className="two" type="button" onClick={this.onClickHandler}>2</button>
+        <button className="three" type="button" onClick={this.onClickHandler}>3</button>
+        <button className="plus" type="button" onClick={this.onClickHandler}>+</button>
+        <button className="zero" type="button" onClick={this.onClickHandler}>0</button>
+        <button className="point" type="button" onClick={this.onClickHandler}>.</button>
+        <button className="equal" type="button" onClick={this.onClickHandler}>=</button>
       </div>
     );
   }
