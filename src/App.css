@@ -1,3 +1,5 @@
-body {
-  background-color: white;
+.main-container {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }

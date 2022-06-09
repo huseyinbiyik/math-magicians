@@ -1,5 +1,20 @@
+.calculator-container {
+  display: flex;
+  align-items: flex-start;
+  width: 90%;
+  margin: 100px auto;
+  justify-content: space-between;
+}
+
+.calculator-welcome-text {
+  display: inline;
+  width: 30%;
+  margin: 0;
+  padding: 0;
+}
+
 .wrapper {
-  margin-top: 100px;
+  margin-right: 300px;
   display: grid;
   grid-template-columns: auto auto auto auto;
   box-shadow:
