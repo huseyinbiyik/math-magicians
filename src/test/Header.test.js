@@ -1,8 +1,6 @@
 import renderer from 'react-test-renderer';
-import Header from '../components/Header'
 import { HashRouter as Router } from 'react-router-dom';
-
-
+import Header from '../components/Header';
 
 describe('Test for rendering the Header component', () => {
   it('It should render header ', () => {
