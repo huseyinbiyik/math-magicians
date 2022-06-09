@@ -1,7 +1,7 @@
-import calculate from "../logic/calculate";
+import calculate from '../logic/calculate';
 
-describe("test all the math operation functions", () => {
-  test("Use AC button to reset the calculation", () => {
+describe('test all the math operation functions', () => {
+  test('Use AC button to reset the calculation', () => {
     expect(
       calculate(
         {
@@ -9,8 +9,8 @@ describe("test all the math operation functions", () => {
           next: 5,
           operation: null,
         },
-        "AC"
-      )
+        'AC',
+      ),
     ).toEqual({
       total: 0,
       next: null,
@@ -18,7 +18,7 @@ describe("test all the math operation functions", () => {
     });
   });
 
-  test("Check if minus plus button works properly", () => {
+  test('Check if minus plus button works properly', () => {
     expect(
       calculate(
         {
@@ -26,11 +26,11 @@ describe("test all the math operation functions", () => {
           next: 1,
           operation: null,
         },
-        '+/-'
-      )
+        '+/-',
+      ),
     ).toEqual({
       total: 1,
-      next: "-1",
+      next: '-1',
       operation: null,
     });
   });
