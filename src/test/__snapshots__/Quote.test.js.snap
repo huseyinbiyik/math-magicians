@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test for quote page It should render quote component 1`] = `
+<section
+  className="quote-section"
+>
+  <p>
+    Math. The only place where people can buy 64 watermelons and no one wonders why…
+  </p>
+</section>
+`;
