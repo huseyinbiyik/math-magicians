@@ -14,14 +14,14 @@ class App extends React.Component {
 
   render() {
     return (
-      <>
+      <div className='main-container'>
       <Header/>
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/quote" element={<Quote />} />
       </Routes>
-      </>
+      </div>
     );
   }
 }
