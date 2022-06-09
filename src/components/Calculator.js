@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import "./Calculator.css";
-import calculate from "../logic/calculate";
+import React, { useState } from 'react';
+import './Calculator.css';
+import calculate from '../logic/calculate';
 
 const Calculator = () => {
   const [state, setState] = useState({ total: 0 });
@@ -12,7 +12,7 @@ const Calculator = () => {
   const { total, operation, next } = state;
   return (
     <section className="calculator-container">
-      <h2 className="calculator-welcome-text">Let's do some math! ⇢ ⇢ ⇢</h2>
+      <h2 className="calculator-welcome-text">Lets do some math!</h2>
       <div className="wrapper">
         <div className="total">
           {total}

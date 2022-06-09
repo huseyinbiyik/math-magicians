@@ -7,20 +7,18 @@
 }
 
 .menu {
-display: flex;
-list-style: none;
-gap: 15px;
+  display: flex;
+  list-style: none;
+  gap: 15px;
 }
 
-.menu>li {
+.menu > li {
   padding: 0 10px;
   border-right-width: 1.5px;
   border-right-color: black;
   border-right-style: solid;
 }
 
-.menu>li:last-child{
+.menu > li:last-child {
   border: none;
 }
-
-

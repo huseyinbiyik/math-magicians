@@ -4,7 +4,6 @@
   width: 90%;
   margin: 100px auto;
   justify-content: space-between;
-  
 }
 
 .calculator-welcome-text {
@@ -15,7 +14,7 @@
 }
 
 .wrapper {
-margin-right: 300px;
+  margin-right: 300px;
   display: grid;
   grid-template-columns: auto auto auto auto;
   box-shadow:
