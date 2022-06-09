@@ -1,7 +1,7 @@
 import calculate from "../logic/calculate";
 
 describe("test all the math operation functions", () => {
-  test("4 + 2 must be equal to 6", () => {
+  test("Use AC button to reset the calculation", () => {
     expect(
       calculate(
         {
@@ -18,7 +18,7 @@ describe("test all the math operation functions", () => {
     });
   });
 
-  test("4 + 2 must be equal to 6", () => {
+  test("Check if minus plus button works properly", () => {
     expect(
       calculate(
         {
