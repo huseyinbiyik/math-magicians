@@ -1,8 +1,9 @@
 .container {
-  width: 100vw;
+  width: 90%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: baseline;
+  margin: 0 auto;
 }
 
 .menu {
