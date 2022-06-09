@@ -1,0 +1,11 @@
+.quote-section {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 180px auto;
+}
+
+.quote-section > p {
+  font-size: 48px;
+}
