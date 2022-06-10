@@ -3,10 +3,16 @@
 # math magicians
 
 > math-magicians is a simple calculator. It is an SPA and built with React.
+> 
 ## Built With
 
 - React
 - Webpack
+
+## Live Demo
+
+[Live Demo Heroku Link](https://math-magicianz.herokuapp.com/)
+[Live Demo Netlify Link](https://math-magicianz.netlify.app/)
 
 ## Getting Started
 
