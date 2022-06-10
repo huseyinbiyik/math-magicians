@@ -11,8 +11,8 @@
 
 ## Live Demo
 
-[Live Demo Heroku Link](https://math-magicianz.herokuapp.com/)
-[Live Demo Netlify Link](https://math-magicianz.netlify.app/)
+- [Live Demo Heroku Link](https://math-magicianz.herokuapp.com/)
+- [Live Demo Netlify Link](https://math-magicianz.netlify.app/)
 
 ## Getting Started
 
@@ -31,8 +31,8 @@ Web Browser (Chrome,Safari,Mozilla,Edge)
 
 ### Install
 
--A web browser
--NPM
+- A web browser
+- NPM
 
 ## Authors
 
