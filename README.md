@@ -1,6 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# math magicians
+# Math Magicians
 
 > math-magicians is a simple calculator. It is an SPA and built with React.
 > 
